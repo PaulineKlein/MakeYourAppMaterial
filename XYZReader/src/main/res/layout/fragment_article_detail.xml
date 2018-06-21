@@ -73,6 +73,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
+                app:contentInsetStart="72dp"
                 app:theme="@style/Theme.Bacon"
                 android:fitsSystemWindows="true"
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
@@ -81,6 +82,7 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
+
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scrollview"
@@ -99,10 +101,12 @@
             android:layout_marginRight="@dimen/detail_inner_horiz_margin"
             android:paddingBottom="@dimen/detail_body_bottom_margin"
             android:textSize="@dimen/detail_body_text_size"
-            android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
             tools:text="@string/app_name" />
 
     </android.support.v4.widget.NestedScrollView>
+
+
+
 
 
     <android.support.design.widget.FloatingActionButton
