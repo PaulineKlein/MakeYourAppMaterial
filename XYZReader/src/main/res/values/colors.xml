@@ -16,13 +16,6 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#e4e2e2</color>
-
-    <color name="theme_primary">#64B5F6</color>
-    <color name="theme_primary_dark">#5C6BC0</color>
-    <color name="theme_accent">#FFA726</color>
-    <color name="ltgray">#616161</color>
-
     <color name="colorPrimary">#85beed</color>
     <color name="colorPrimaryDark">#5C6BC0</color>
     <color name="colorSecondaryDark">#0288D1</color>
